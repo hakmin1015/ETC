@@ -1,0 +1,91 @@
+Scheduling/Leveling Report - 2023-08-08 16:19:02 - PM.EXE
+=========================================================
+
+	Default Project..................................................SP
+
+	Projects: 
+		SP............................................................Sample Project
+
+Scheduling/Leveling Settings:
+-----------------------------
+	General
+	-------
+	Scheduling ......................................................Yes
+	Leveling ........................................................No
+	Ignore relationships to and from other projects .................No
+	Make open-ended activities critical .............................No
+	Use Expected Finish Dates .......................................Yes
+	Schedule automatically when a change affects dates ..............No
+	Level resources during scheduling ...............................No
+	Recalculate assignment costs after scheduling ...................No
+	When scheduling progressed activities use .......................Retained Logic
+	Calculate start-to-start lag from ...............................Early Start
+	Define critical activities as Total Float less than or equal to .0
+	Compute Total Float As ..........................................Finish Float
+	Calculate float based on finish date of .........................Each project
+	Calendar for scheduling Relationship Lag ........................Predecessor Activity Calendar
+
+	Advanced
+	--------
+	Calculate multiple float paths...................................No
+
+Statistics:
+-----------
+	# Projects.......................................................1
+	# Activities.....................................................14
+	# Not Started....................................................14
+	# In Progress....................................................0
+	# Completed......................................................0
+	# Relationships..................................................14
+	# Activities with Constraint.....................................0
+
+Errors:
+-------
+Warnings:
+---------
+	Activities without predecessors..................................1
+		Project:	SP	Activity:	M1000	START
+
+	Activities without successors....................................4
+		Project:	SP	Activity:	M1010	FINISH
+		Project:	SP	Activity:	M1020	WBS A FINISH
+		Project:	SP	Activity:	M1030	WBS B FINISH
+		Project:	SP	Activity:	M1040	WBS C FINISH
+
+	Out-of-sequence activities.......................................0
+
+	Activities with Actual Dates > Data Date.........................0
+
+	Milestone Activities with invalid relationships..................0
+
+	Finish milestone and predecessors have different calendars.......0
+
+Scheduling/Leveling Results:
+----------------------------
+	# Projects Scheduled/Leveled.....................................1
+	# Activities Scheduled/Leveled...................................14
+	# Relationships with other projects..............................0
+	Data Date........................................................2024-05-01 00:00
+	Earliest Early Start Date........................................2024-05-01 09:00
+	Latest Early Finish Date.........................................2024-07-05 18:00
+Exceptions:
+-----------
+	Critical Activities..............................................11
+		Project:	SP	Activity:	A1000	TASK 01
+		Project:	SP	Activity:	B1000	TASK 02
+		Project:	SP	Activity:	C1000	TASK 03
+		Project:	SP	Activity:	C1010	TASK 04
+		Project:	SP	Activity:	C1020	TASK 05
+		Project:	SP	Activity:	C1040	TASK 07
+		Project:	SP	Activity:	C2000	TASK 08
+		Project:	SP	Activity:	C2010	TASK 09
+		Project:	SP	Activity:	M1000	START
+		Project:	SP	Activity:	M1010	FINISH
+		Project:	SP	Activity:	M1040	WBS C FINISH
+
+	Activities with unsatisfied constraints..........................0
+
+	Activities with unsatisfied relationships........................0
+
+	Activities with external dates...................................0
+
